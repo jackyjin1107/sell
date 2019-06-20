@@ -8,3 +8,20 @@ jpa:
     show-sql: true
 server:
     context-path: /sell
+wechat:
+  mpAppId: wx4e8e375118c97302
+  mpAppSecret: e4dda2e57037020805b4e62da0c0903a
+
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  mchId: 1483469312
+  mchKey: 06C56A89949D617xxxxxxxxxxx
+  keyPath: /var/weixin_cert/h5.p12
+  notifyUrl: http://jinlp.natapp1.cc/sell/pay/notify
+  templateId:
+    orderStatus: e-Cqq67QxD6YNI41iRiqawEYdFavW_7pc7LyEMb-yeQ
+
+projectUrl:
+  wechatMpAuthorize: http://jinlp.natapp1.cc
+  wechatOpenAuthorize: http://jinlp.natapp1.cc
+  sell: http://jinlp.natapp1.cc
